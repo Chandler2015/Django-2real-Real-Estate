@@ -32,8 +32,8 @@ def contact(request):
         send_mail(
             'Property Listing Inquiry',
             'There has been an inquiry for' + listing + '.Sign into the admin panel for more information',
-            'yxiong4@ualberta.ca',
-            [realtor_email,'yxiong4@ualberta.ca'],
+            '2432128198@qq.com',
+            [realtor_email,'2432128198@qq.com'],
             fail_silently = False
         )
 
